@@ -57,5 +57,5 @@ mark{
 }
 .svg{
 	filter: invert(91%) sepia(0%) saturate(24%) hue-rotate(177deg) brightness(100%) contrast(87%);
-	height: 20px;
+	height: 1.3em;
 }
