@@ -92,8 +92,8 @@ a.lightgradient:hover{
 	display: inline-block;
 	border-bottom: 1px dotted black; 
 }
-@media only screen and (max-width: 600px){ /* Designing  for pc first because fuck you I do css on pc */
+@media (max-width: 600px){ /* Designing  for pc first because fuck you I do css on pc */
 	body{
-		font-size: 14px;
+		font-size: 15px;
 	}
 }
