@@ -59,10 +59,11 @@ mark{
     border-radius: 7px;
 }
 hr{
-	color: #222526;
+	border: none;
+	border-top: 1px solid dimgray;
 }
-main hr{
-	color: dimgray;
+footer hr{
+	border-top: 1px solid #222526;
 }
 .subtitle{
 	background: radial-gradient(circle, rgba(77,77,255,1) 3%, rgba(255,77,77,1) 27%);
