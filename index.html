@@ -12,9 +12,9 @@
     <div>
         <form name="formulario" action="calculo.php" method="POST">
             <label for="cantidad">Cantidad a producir</label>
-            <input type="text" name="cantidad" id="cantidad" required><br>
+            <input type="text" name="cantidad" id="cantidad" name="cantidad" required><br>
             <label for="tiempoTrabajo">Minutos por día de trabajo</label>
-            <input type="text" name="tiempoTrabajo" id="tiempoTrabajo" required><br>
+            <input type="text" name="tiempo" id="tiempo" name="tiempo" required><br>
             <br>
 
             <table id="table">
@@ -33,14 +33,14 @@
                         <td><input type="text" name="descripcion" id="descripcion"></td>
                         <td><input type="text" name="maquina" id="maquina"></td>
                         <td><input type="text" name="accesorio" id="accesorio"></td>
-                        <td><input type="text" name="TC" id="TC" required></td>
+                        <td><input type="text" name="TC[]" id="TC" required></td>
                     </tr>
                     <tr>
                         <td>2</td>
                         <td><input type="text" name="descripcion" id="descripcion"></td>
                         <td><input type="text" name="maquina" id="maquina"></td>
                         <td><input type="text" name="accesorio" id="accesorio"></td>
-                        <td><input type="text" name="TC" id="TC" required></td>
+                        <td><input type="text" name="TC[]" id="TC" required></td>
                     </tr>
                 </tbody>
             </table>
